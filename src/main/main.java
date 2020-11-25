@@ -28,17 +28,17 @@ public class main {
 				+ "\n0 para finalizar pedido");
 		resposta=leia.nextInt();
 		if(resposta == 1) {
-
-			
-			
+			System.out.println(lanches);
+			System.out.println("Digite qual o sabor deseja");
 		}else if(resposta == 2) {
 			System.out.println(pasteis);
-			
+			System.out.println("Digite qual o sabor deseja");
 		}else if(resposta == 3) {
-			
-		
+			System.out.println(bebidas);
+			System.out.println("Digite qual a bebida desejada");
 		}else if(resposta == 4){
-			
+			System.out.println(sobremesas);
+			System.out.println("Digite qual o sabor deseja");
 			
 		}
 		}while(resposta != 0);
