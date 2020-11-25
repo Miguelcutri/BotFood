@@ -38,8 +38,7 @@ public class Pasteis {
 	}
 	@Override
 	public String toString() {
-		return "Pasteis [nomePastel=" + nomePastel + ", descricao=" + descricao + ", quantidade=" + quantidade
-				+ ", preco=" + preco + "]";
+		return "\nPasteis = " + nomePastel +  ", Preco=" + preco;
 	}
 	
 	
